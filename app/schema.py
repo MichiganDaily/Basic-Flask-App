@@ -10,4 +10,4 @@ class Users(db.Model):
         self.name = name
 
     def __repr__(self):
-        return '%r %r' % (self.subject, self.number)
+        return '%s' % (self.name)

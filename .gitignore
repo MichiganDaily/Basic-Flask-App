@@ -1,0 +1,67 @@
+*~
+*.log
+*.egg-info/
+*.db
+*.pyc
+.DS_Store
+__pycache__/
+dist/
+env/
+venv/
+var/
+build/
+node_modules/
+js_bundles/
+cookies.txt
+gradeguide.egg-info
+.sass-cache/
+notes.txt
+
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.pyc
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.rar
+#*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+ehthumbs.db
+Icon
+Thumbs.db
+.tmtags
+.idea
+tags
+vendor.tags
+tmtagsHistory
+*.sublime-project
+*.sublime-workspace
+.bundle
+
+utils/grade-guide-test-api/course_data/json/*
+build/
+docs/docs/
+env/
+node_modules/

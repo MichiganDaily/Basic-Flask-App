@@ -1,4 +1,4 @@
-from app import db
+from basic_app import db
 
 
 class Users(db.Model):

@@ -27,7 +27,7 @@ db.session.add(test_user)
 db.session.commit()
 
 
-@app.route("/")
+@basic_app.route("/")
 def index():
     first_user = schema.Users.query.first()
     return "Hello %s" % first_user.name

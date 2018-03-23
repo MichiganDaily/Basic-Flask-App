@@ -12,3 +12,7 @@ Demo flask app for gradeguide environment setup
 
 Should run an empty flask app that creates a database, adds a record to it and renders the name from the record
 at https://localhost:8088/
+
+To run with gunicorn, instead do:
+
+``` gunicorn --bind 0.0.0.0:8000 wsgi ```
